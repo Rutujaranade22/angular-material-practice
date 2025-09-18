@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
- import {MatIconModule} from '@angular/material/icon';
-import {MatButtonModule} from '@angular/material/button';
-import {MatToolbarModule} from '@angular/material/toolbar';
-
+  
+import { Head } from './components/head/head';
+import { Button } from './components/button/button';
 @Component({
   selector: 'app-root',
-  imports: [MatToolbarModule, MatButtonModule, MatIconModule],
+  imports: [Head,Button],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
